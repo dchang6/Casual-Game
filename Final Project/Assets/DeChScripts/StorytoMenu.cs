@@ -21,7 +21,7 @@ public class StorytoMenu : MonoBehaviour
 
         if (PTimer <= -12)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene("Menu", LoadSceneMode.Single);
             Time.timeScale = 0;
         }
 

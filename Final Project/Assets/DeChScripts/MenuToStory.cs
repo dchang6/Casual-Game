@@ -21,7 +21,7 @@ public class MenuToStory : MonoBehaviour
 
         if (LTimer <= -12)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            SceneManager.LoadScene("Story", LoadSceneMode.Single);
             Time.timeScale = 0;
         }
 
