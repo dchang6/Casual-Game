@@ -18,7 +18,7 @@ public class GameStart : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.P) || (Input.GetButtonDown(buttonName: "Start")))
         {
-            SceneManager.LoadScene("Level 1", LoadSceneMode.Single);
+            SceneManager.LoadScene("Arcade", LoadSceneMode.Single);
         }
     }
 }
