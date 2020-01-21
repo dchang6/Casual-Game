@@ -19,7 +19,7 @@ public class StorytoMenu : MonoBehaviour
     {
         PTimer -= Time.deltaTime;
 
-        if (PTimer <= -20)
+        if (PTimer <= -12)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             Time.timeScale = 0;
