@@ -19,10 +19,10 @@ public class MenuToStory : MonoBehaviour
     {
         LTimer -= Time.deltaTime;
 
-        if (LTimer <= -12)
+        if (LTimer <= -20)
         {
             SceneManager.LoadScene("Story", LoadSceneMode.Single);
-            Time.timeScale = 0;
+            Time.timeScale = 1;
         }
 
     }

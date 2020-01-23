@@ -5,25 +5,25 @@ using UnityEngine.UI;
 using System.Threading;
 using UnityEngine.SceneManagement;
 
-public class LevelScreenToActualLevel : MonoBehaviour
+public class StoryToScoresTable : MonoBehaviour
 {
-    public float Timer;
+    public float PTimer;
     // Start is called before the first frame update
     void Start()
     {
-        Timer = 0.0f;
+        PTimer = 0.0f;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        Timer -= Time.deltaTime;
+        PTimer -= Time.deltaTime;
 
-        if(Timer <=-3)
+        if (PTimer <= -15)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            Time.timeScale = 0;
+            SceneManager.LoadScene("Scores Table", LoadSceneMode.Single);
+            Time.timeScale = 1;
         }
-        
+
     }
 }

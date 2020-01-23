@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 125733074}
   - component: {fileID: 125733073}
   - component: {fileID: 125733072}
+  - component: {fileID: 125733070}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -138,6 +139,102 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!82 &125733070
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125733069}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 53ace92e5f87f2e439935946bfa6b31c, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.4
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!81 &125733072
 AudioListener:
   m_ObjectHideFlags: 0
@@ -592,8 +689,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12, y: 392.6001}
-  m_SizeDelta: {x: 1273.3, y: 70.1}
+  m_AnchoredPosition: {x: -25, y: 392.6001}
+  m_SizeDelta: {x: 1384.7, y: 70.1}
   m_Pivot: {x: 0.42919484, y: 1.4009305}
 --- !u!114 &473985770
 MonoBehaviour:
@@ -626,7 +723,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: HOMBRE, THE LITTLE GREEN DOG HEAD
+  m_Text: HOMBRE, THE GREEN DOG HEAD FROM MARS
 --- !u!222 &473985771
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1197,8 +1294,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -65, y: -427}
-  m_SizeDelta: {x: 1063, y: 70.1}
+  m_AnchoredPosition: {x: -449.3003, y: -427}
+  m_SizeDelta: {x: 1174.1, y: 70.1}
   m_Pivot: {x: 0.42919484, y: 1.4009305}
 --- !u!114 &763610996
 MonoBehaviour:
@@ -1220,7 +1317,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_FontSize: 55
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1231,7 +1328,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TM AND C 1985 DOUBLE G STUDIOS.,   LTD.
+  m_Text: TM AND C 1985 DOUBLE G STUDIOS., LTD.
 --- !u!222 &763610997
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6991,8 +7088,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 43.5, y: 331.5}
-  m_SizeDelta: {x: 1294.2, y: 145.9}
+  m_AnchoredPosition: {x: 63, y: 331.5}
+  m_SizeDelta: {x: 1397.8, y: 145.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1171401971
 MonoBehaviour:
@@ -7141,7 +7238,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 655.7, y: 408}
+  m_AnchoredPosition: {x: 756, y: 408}
   m_SizeDelta: {x: 61.138, y: 70.1}
   m_Pivot: {x: 0.42919484, y: 1.4009305}
 --- !u!114 &1370745352
@@ -7279,6 +7376,7 @@ RectTransform:
   - {fileID: 170005789}
   - {fileID: 763610995}
   - {fileID: 1370745351}
+  - {fileID: 2077102176}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12370,7 +12468,7 @@ GameObject:
   - component: {fileID: 2060930171}
   - component: {fileID: 2060930170}
   - component: {fileID: 2060930173}
-  - component: {fileID: 2060930174}
+  - component: {fileID: 2060930175}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -12438,7 +12536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7507d0c42d64de646a637b1ae1f04a35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2060930174
+--- !u!114 &2060930175
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12447,7 +12545,84 @@ MonoBehaviour:
   m_GameObject: {fileID: 2060930169}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3d1dd0818463f24cb34206ee6a35636, type: 3}
+  m_Script: {fileID: 11500000, guid: 1ad774c65d5337d4a86b07bcfda2f5aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   LTimer: 0
+--- !u!1 &2077102175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2077102176}
+  - component: {fileID: 2077102178}
+  - component: {fileID: 2077102177}
+  m_Layer: 5
+  m_Name: Win (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2077102176
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077102175}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1560498936}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 692, y: -427}
+  m_SizeDelta: {x: 1063, y: 70.1}
+  m_Pivot: {x: 0.42919484, y: 1.4009305}
+--- !u!114 &2077102177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077102175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 55
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 150
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Music By Patrick De Arteaga
+--- !u!222 &2077102178
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077102175}
+  m_CullTransparentMesh: 0
