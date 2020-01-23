@@ -5,24 +5,24 @@ using UnityEngine.UI;
 using System.Threading;
 using UnityEngine.SceneManagement;
 
-public class StorytoMenu : MonoBehaviour
+public class ScoresTableToMenu : MonoBehaviour
 {
-    public float PTimer;
+    public float HTimer;
     // Start is called before the first frame update
     void Start()
     {
-        PTimer = 0.0f;
+        HTimer = 0.0f;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        PTimer -= Time.deltaTime;
+        HTimer -= Time.deltaTime;
 
-        if (PTimer <= -12)
+        if (HTimer <= -15)
         {
             SceneManager.LoadScene("Menu", LoadSceneMode.Single);
-            Time.timeScale = 0;
+            Time.timeScale = 1;
         }
 
     }

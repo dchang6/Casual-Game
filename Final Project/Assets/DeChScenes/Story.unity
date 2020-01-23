@@ -154,8 +154,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -54.533, y: 653}
-  m_SizeDelta: {x: 1502.7, y: 632.2}
+  m_AnchoredPosition: {x: -74.9, y: 653}
+  m_SizeDelta: {x: 1538.4, y: 632.2}
   m_Pivot: {x: 0.42919484, y: 1.4009305}
 --- !u!114 &307861694
 MonoBehaviour:
@@ -188,9 +188,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "The Year is 20XX, you have been abducted from your owner by your evil bigger
-    twin, Man. You escape your captor, but he is in heavy pursuit of you. Will you
-    be able to escape him for good or will you die trying?\r\n"
+  m_Text: The Year is 20XX, you have been abducted from your planet by your rival
+    dog head, Nebula. You escape your captor, but he is in heavy pursuit of you. How
+    long will you last until he catches up to you?
 --- !u!222 &307861695
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -371,10 +371,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 916687031}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f54a6e207b4a446478ddf1df48ed6ac5, type: 3}
+  m_Script: {fileID: 11500000, guid: 4dbef6faf9b92854cab5a04ea1512751, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PTimer: -11
+  PTimer: 0
 --- !u!1 &1176724249
 GameObject:
   m_ObjectHideFlags: 0
