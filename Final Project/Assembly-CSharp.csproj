@@ -64,6 +64,7 @@
      <Compile Include="Assets\DeChScripts\MenuStart.cs" />
      <Compile Include="Assets\DeChScripts\MenuToStartVV.cs" />
      <Compile Include="Assets\DeChScripts\MenuToStory.cs" />
+     <Compile Include="Assets\DeChScripts\PlayerMovement.cs" />
      <Compile Include="Assets\DeChScripts\ScoresTableToMenu.cs" />
      <Compile Include="Assets\DeChScripts\StoryToScoresTable.cs" />
  <Reference Include="Unity.Timeline.Editor">
