@@ -12468,7 +12468,7 @@ GameObject:
   - component: {fileID: 2060930171}
   - component: {fileID: 2060930170}
   - component: {fileID: 2060930173}
-  - component: {fileID: 2060930175}
+  - component: {fileID: 2060930174}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -12536,7 +12536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7507d0c42d64de646a637b1ae1f04a35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2060930175
+--- !u!114 &2060930174
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
