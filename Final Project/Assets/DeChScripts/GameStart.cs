@@ -20,5 +20,9 @@ public class GameStart : MonoBehaviour
         {
             SceneManager.LoadScene("Arcade", LoadSceneMode.Single);
         }
+         
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+        Application.Quit();
+    }
     }
 }

@@ -7,67 +7,49 @@ using UnityEngine.SceneManagement;
 public class DeChPlayerController : MonoBehaviour
 {
     private Rigidbody2D rb2d;
-    private int GameLoader;
-    public static bool gameOn;
     public static int timeLeft;
-    public float Timer;
+    public float Score;
     public Text timeText;
     private int wholeTime;
-    public Text loseText;
-    public Text scoreText;
-    private static int score;
+    public Text gameoverText;
+    
     
 
     void Start()
     {
         StartCoroutine(ByeAfterDelay(2));
         rb2d = GetComponent<Rigidbody2D>();
-        Timer =0.0f;
-        loseText.text = "";
-        scoreText.text = "";
+        Score =0.0f;
+        gameoverText.text = "";
     }
 
-    void OnCollisionEnter2D(Collision2D col)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("collision name = " + col.gameObject.name);
-        if (col.collider.tag == "Enemy")
+        if (other.gameObject.tag == "Enemy")
         { 
-            loseText.text = "You lose!";
             gameObject.GetComponent<Renderer>().material.color = Color.black;
-            StartCoroutine(ByeAfterDelay(2));
-            Destroy(GameObject.FindWithTag("Enemy"), 2f);
-            Time.timeScale = 0;
+            gameoverText.text = "Game Over!";
+            SceneManager.LoadScene("Menu", LoadSceneMode.Single);
         }
-
-        Debug.Log("collision name = " + col.gameObject.name);
-        if (col.collider.tag == "Death")
+        
+        if (other.gameObject.tag == "DEATH")
         {
-            loseText.text = "You lose!";
             gameObject.GetComponent<Renderer>().material.color = Color.black;
-            StartCoroutine(ByeAfterDelay(2));
-            Destroy(GameObject.FindWithTag("Player"), 2f);
-            Time.timeScale = 0;
+            gameoverText.text = "Game Over!";
             SceneManager.LoadScene("Menu", LoadSceneMode.Single);
         }
     }
 
     void FixedUpdate()
     {
-        {
-            scoreText.text = "Timer: " + wholeTime;
-        }
     }
 
 
         void Update()
     {
-        Timer += Time.deltaTime; 
-        wholeTime = (int) Timer;
-        timeText.text = "Timer: "+ wholeTime;
-
-            if (Input.GetKey("escape"))
-                Application.Quit();
-
+        Score += Time.deltaTime; 
+        wholeTime = (int) Score;
+        timeText.text = "Score: "+ wholeTime;
     }
 
     IEnumerator ByeAfterDelay(float time)

@@ -369,7 +369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da5f88046b01fb141834e4b9e3d4365b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RTimer: 0
+  HTimer: 0
 --- !u!1 &836531693
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,7 +438,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 4.
+  m_Text: 4. Dexavier    6 Points
 --- !u!222 &836531696
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -515,7 +515,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Longest Time Survived
+  m_Text: '      High Scores'
 --- !u!222 &898264756
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -675,7 +675,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2.
+  m_Text: 2. Dexavier    9 Points
 --- !u!222 &1049152650
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -752,7 +752,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3.
+  m_Text: 3. Dexavier    8 Points
 --- !u!222 &1397774645
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -829,7 +829,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1.
+  m_Text: 1. Dexavier    10 Points
 --- !u!222 &1827216164
 CanvasRenderer:
   m_ObjectHideFlags: 0

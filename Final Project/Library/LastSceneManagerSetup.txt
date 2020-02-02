@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/DeChScenes/Arcade.unity
+- path: Assets/DeChScenes/Menu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -6,7 +6,7 @@ public class DeChTextKill : MonoBehaviour
 {
     void Start()
     {
-        Destroy(gameObject, 0.9f);
+        Destroy(gameObject, 2.0f);
     }
 
     void Update()
