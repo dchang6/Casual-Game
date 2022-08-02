@@ -8,4 +8,4 @@ Download Instructions
 4.Click on the application that says Final Project.exe and select to extract all.     
 5.Once the files have been extracted, click the until your're inside of the builds folder again. Final Project.exe should now be playable.
 
-Note: You don't need to have a Github account to do any of this.
+Note: You don't need to have a Github account to do any of this. Checking the windowed box means it will not be full screen. Press Esc to exit out of the game if you're not windowed.
